@@ -3,17 +3,17 @@ data:
   duration: 2
   sampling_rate: 24000
   # f1 full
-  train_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/f1/train-full
-  valid_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/f1/val
+  # train_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/f1/train-full
+  # valid_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/f1/val
   # valid_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/f1/test
   # m1 full
   # train_path: /volume/wayne-nas-ai-music/vocoder/dds-revised/data/m1/train-full
   # valid_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/m1/val
   # valid_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/m1/test
   # f1 3min
-  # train_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/f1/train-3min
-  # valid_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/f1/val
-  # valid_path: /volume/wayne-nas-ai-music/vocoder/dds-revised/data/f1/test
+  train_path: data/f1/train-3min
+  valid_path: data/f1/val
+  valid_path: data/f1/test
   # m1 3min
   # train_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/m1/train-3min
   # valid_path: /volume/wayne-nas-ai-music/vocoder/ddsp-revised/data/m1/val
