@@ -182,8 +182,8 @@ if __name__ == '__main__':
 
     # ========================== #
     # run
-    for v in ['m1', 'f1']:
-        for s in ['train-full', 'train-3min', 'val', 'test']:
+    for v in ['f1']:                                                        # delete 'm1'
+        for s in ['train-3min', 'val', 'test']:                             # delete 'train-full'
             print(f'=== {v} - {s} =============')
             path_srcdir  = os.path.join(path_rootdir, v, s, 'audio')
             path_dstdir  = os.path.join(path_rootdir, v, s, 'mel')
