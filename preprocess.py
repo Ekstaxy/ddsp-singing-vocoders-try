@@ -154,7 +154,7 @@ def process_mel(
         if sr != sampling_rate:
             print(f' > Resampling from {sr} to {sampling_rate}')
             x = li.resample(x, orig_sr=sr, target_sr=sampling_rate)
-        assert sr == sampling_rate
+        # assert sr == sampling_rate
         x_t = torch.from_numpy(x).float().to(device)
         x_t = x_t.unsqueeze(0).unsqueeze(0) # (T,) --> (1, 1, T)
 
